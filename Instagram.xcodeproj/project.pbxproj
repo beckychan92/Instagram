@@ -416,7 +416,7 @@
 				DEVELOPMENT_TEAM = 4S57G43G7F;
 				INFOPLIST_FILE = Instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codepath.Instagram;
+				PRODUCT_BUNDLE_IDENTIFIER = berkeley.codepath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -429,7 +429,7 @@
 				DEVELOPMENT_TEAM = 4S57G43G7F;
 				INFOPLIST_FILE = Instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codepath.Instagram;
+				PRODUCT_BUNDLE_IDENTIFIER = berkeley.codepath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -508,6 +508,7 @@
 				C5F1CD061E6E31A5005C046A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5F1CD071E6E31A5005C046A /* Build configuration list for PBXNativeTarget "InstagramTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +517,7 @@
 				C5F1CD091E6E31A5005C046A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5F1CD0A1E6E31A5005C046A /* Build configuration list for PBXNativeTarget "InstagramUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +526,7 @@
 				C5F1CD0C1E6E31A5005C046A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
