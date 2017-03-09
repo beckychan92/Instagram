@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C085070B76DD7F2D5E9CAA4 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409BEA5554A2933427D4F4CD /* Pods_Instagram.framework */; };
+		BE2509447B78B9498AB9B038 /* Pods_InstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352876888FA2255153E41388 /* Pods_InstagramTests.framework */; };
 		C5F1CCE01E6E31A5005C046A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1CCDF1E6E31A5005C046A /* AppDelegate.swift */; };
 		C5F1CCE21E6E31A5005C046A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1CCE11E6E31A5005C046A /* ViewController.swift */; };
 		C5F1CCE51E6E31A5005C046A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F1CCE31E6E31A5005C046A /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		C5F1CCEA1E6E31A5005C046A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F1CCE81E6E31A5005C046A /* LaunchScreen.storyboard */; };
 		C5F1CCF51E6E31A5005C046A /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1CCF41E6E31A5005C046A /* InstagramTests.swift */; };
 		C5F1CD001E6E31A5005C046A /* InstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1CCFF1E6E31A5005C046A /* InstagramUITests.swift */; };
+		CE8F4BA6A4B3AECDBA5506B0 /* Pods_InstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6E19006825B0B07487DA6B /* Pods_InstagramUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026F5D912FD6015912335602 /* Pods-InstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramUITests/Pods-InstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		352876888FA2255153E41388 /* Pods_InstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A48D98260E00811E862BB22 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
+		409BEA5554A2933427D4F4CD /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		773169F3BD93337332E38814 /* Pods-InstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramTests/Pods-InstagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		7ED19304480DDDF86F49E410 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
+		BC46CF8345EDA89079ED3185 /* Pods-InstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramUITests/Pods-InstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5F1CCDC1E6E31A5005C046A /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F1CCDF1E6E31A5005C046A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5F1CCE11E6E31A5005C046A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		C5F1CCFB1E6E31A5005C046A /* InstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F1CCFF1E6E31A5005C046A /* InstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITests.swift; sourceTree = "<group>"; };
 		C5F1CD011E6E31A5005C046A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24404CB5B8C1FA27716B04E /* Pods-InstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramTests/Pods-InstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB6E19006825B0B07487DA6B /* Pods_InstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C085070B76DD7F2D5E9CAA4 /* Pods_Instagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2509447B78B9498AB9B038 /* Pods_InstagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8F4BA6A4B3AECDBA5506B0 /* Pods_InstagramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D9EE4EE74A65E641BC5073E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A48D98260E00811E862BB22 /* Pods-Instagram.debug.xcconfig */,
+				7ED19304480DDDF86F49E410 /* Pods-Instagram.release.xcconfig */,
+				D24404CB5B8C1FA27716B04E /* Pods-InstagramTests.debug.xcconfig */,
+				773169F3BD93337332E38814 /* Pods-InstagramTests.release.xcconfig */,
+				BC46CF8345EDA89079ED3185 /* Pods-InstagramUITests.debug.xcconfig */,
+				026F5D912FD6015912335602 /* Pods-InstagramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C5F1CCD31E6E31A5005C046A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				C5F1CCF31E6E31A5005C046A /* InstagramTests */,
 				C5F1CCFE1E6E31A5005C046A /* InstagramUITests */,
 				C5F1CCDD1E6E31A5005C046A /* Products */,
+				6D9EE4EE74A65E641BC5073E /* Pods */,
+				F02D1020A3F4952C88E1C678 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = InstagramUITests;
 			sourceTree = "<group>";
 		};
+		F02D1020A3F4952C88E1C678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				409BEA5554A2933427D4F4CD /* Pods_Instagram.framework */,
+				352876888FA2255153E41388 /* Pods_InstagramTests.framework */,
+				EB6E19006825B0B07487DA6B /* Pods_InstagramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5F1CD041E6E31A5005C046A /* Build configuration list for PBXNativeTarget "Instagram" */;
 			buildPhases = (
+				A65C90DAFB13C3C65775D8DE /* [CP] Check Pods Manifest.lock */,
 				C5F1CCD81E6E31A5005C046A /* Sources */,
 				C5F1CCD91E6E31A5005C046A /* Frameworks */,
 				C5F1CCDA1E6E31A5005C046A /* Resources */,
+				D666AA964902816B1CB582A6 /* [CP] Embed Pods Frameworks */,
+				980D81045459C61CB828A3EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5F1CD071E6E31A5005C046A /* Build configuration list for PBXNativeTarget "InstagramTests" */;
 			buildPhases = (
+				AC1AC3B12BFB50D5FB8C5F89 /* [CP] Check Pods Manifest.lock */,
 				C5F1CCEC1E6E31A5005C046A /* Sources */,
 				C5F1CCED1E6E31A5005C046A /* Frameworks */,
 				C5F1CCEE1E6E31A5005C046A /* Resources */,
+				A43FC60F3936A55EFA78C91D /* [CP] Embed Pods Frameworks */,
+				6A2BF62D0BA8E99BA626731B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5F1CD0A1E6E31A5005C046A /* Build configuration list for PBXNativeTarget "InstagramUITests" */;
 			buildPhases = (
+				63230A8B86D8B1FC2CAF816D /* [CP] Check Pods Manifest.lock */,
 				C5F1CCF71E6E31A5005C046A /* Sources */,
 				C5F1CCF81E6E31A5005C046A /* Frameworks */,
 				C5F1CCF91E6E31A5005C046A /* Resources */,
+				8F5C01A937C85A01987A4C3F /* [CP] Embed Pods Frameworks */,
+				FA448B6FF01E3F162FF24821 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +303,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63230A8B86D8B1FC2CAF816D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A2BF62D0BA8E99BA626731B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstagramTests/Pods-InstagramTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F5C01A937C85A01987A4C3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstagramUITests/Pods-InstagramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		980D81045459C61CB828A3EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instagram/Pods-Instagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43FC60F3936A55EFA78C91D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstagramTests/Pods-InstagramTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A65C90DAFB13C3C65775D8DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC1AC3B12BFB50D5FB8C5F89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D666AA964902816B1CB582A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instagram/Pods-Instagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA448B6FF01E3F162FF24821 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstagramUITests/Pods-InstagramUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5F1CCD81E6E31A5005C046A /* Sources */ = {
@@ -411,6 +598,7 @@
 		};
 		C5F1CD051E6E31A5005C046A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A48D98260E00811E862BB22 /* Pods-Instagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4S57G43G7F;
@@ -424,6 +612,7 @@
 		};
 		C5F1CD061E6E31A5005C046A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED19304480DDDF86F49E410 /* Pods-Instagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4S57G43G7F;
@@ -437,6 +626,7 @@
 		};
 		C5F1CD081E6E31A5005C046A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24404CB5B8C1FA27716B04E /* Pods-InstagramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -451,6 +641,7 @@
 		};
 		C5F1CD091E6E31A5005C046A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773169F3BD93337332E38814 /* Pods-InstagramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,6 +656,7 @@
 		};
 		C5F1CD0B1E6E31A5005C046A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC46CF8345EDA89079ED3185 /* Pods-InstagramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = InstagramUITests/Info.plist;
@@ -478,6 +670,7 @@
 		};
 		C5F1CD0C1E6E31A5005C046A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026F5D912FD6015912335602 /* Pods-InstagramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = InstagramUITests/Info.plist;
