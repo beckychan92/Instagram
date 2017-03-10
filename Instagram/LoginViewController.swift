@@ -35,6 +35,18 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func signUp(_ sender: Any) {
+        let newUser = PFUser()
+        newUser.username = usernameField.text
+        
+        newUser.password = passwordField.text
+        
+        newUser.signUpInBackground { (success: Bool, error: Error?) in
+            if success {
+                print("User created!")
+            } else {
+                print(error?.localizedDescription)
+            }
+        }
     }
     
     
