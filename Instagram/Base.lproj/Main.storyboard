@@ -80,12 +80,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+            <point key="canvasLocation" x="-159" y="146"/>
         </scene>
         <!--Insta View Controller-->
         <scene sceneID="5ta-4G-AzJ">
             <objects>
-                <viewController id="B1O-aA-LA8" customClass="InstaViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InstaVC" id="B1O-aA-LA8" customClass="InstaViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="j7Z-l9-rYv"/>
                         <viewControllerLayoutGuide type="bottom" id="iwD-I3-5uT"/>

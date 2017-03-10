@@ -18,6 +18,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        //check if user is logged in
+        if PFUser.current() != nil {
+            print("There is a current user")
+            let storyboard = UIStoryboard(name: "InstaVC", bundle: nil)
+            
+            let vc = storyboard.instantiateViewController(withIdentifier: "InstaViewController")
+            window?.rootViewController = vc
+            // if there is a logged in user then load the home view controller
+            
+        }
+        
+        // Code to initialize Parse
         Parse.initialize(
             with: ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
                 configuration.applicationId = "Instagram"
@@ -26,6 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
         )
         
+
         return true
     }
 
