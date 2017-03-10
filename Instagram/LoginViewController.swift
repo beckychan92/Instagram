@@ -7,9 +7,17 @@
 //
 
 import UIKit
+import Parse
 
 class LoginViewController: UIViewController {
-
+    
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +28,15 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func signIn(_ sender: Any) {
+    }
+    
+    
+    @IBAction func signUp(_ sender: Any) {
+    }
+    
     
 
     /*
