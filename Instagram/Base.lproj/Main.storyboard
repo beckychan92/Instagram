@@ -105,6 +105,11 @@
                                                 <segue destination="BYZ-38-t0r" kind="presentation" identifier="homeSegue" id="Gyv-vw-v3O"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Compose" id="nFC-iZ-mRF">
+                                            <connections>
+                                                <segue destination="Eeb-Ar-5aQ" kind="presentation" id="VeR-vK-74S"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -116,5 +121,44 @@
             </objects>
             <point key="canvasLocation" x="1063" y="22"/>
         </scene>
+        <!--Compose View Controller-->
+        <scene sceneID="MCJ-Ug-pRB">
+            <objects>
+                <viewController id="Eeb-Ar-5aQ" customClass="ComposeViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CW6-eF-3Ag"/>
+                        <viewControllerLayoutGuide type="bottom" id="SQU-lc-z9p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kNV-0b-KKI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Write a caption..." borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TaJ-qp-Wa1">
+                                <rect key="frame" x="48" y="443" width="279" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.97270221059999995" blue="0.1888100301" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgres" translatesAutoresizingMaskIntoConstraints="NO" id="ODE-2M-h8N">
+                                <rect key="frame" x="25" y="63" width="325" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.081089626159999997" green="0.3111334308" blue="0.70603950780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="instaCaption" destination="TaJ-qp-Wa1" id="0O8-oZ-iNr"/>
+                        <outlet property="instaImage" destination="ODE-2M-h8N" id="Psa-Fp-iHW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SVl-Sv-RqY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1925.5999999999999" y="20.239880059970016"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="imgres" width="225" height="225"/>
+    </resources>
 </document>
