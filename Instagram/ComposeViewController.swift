@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import MBProgressHUD
+import MBProgressHUD
 
 class ComposeViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
@@ -25,9 +25,19 @@ class ComposeViewController: UIViewController, UINavigationControllerDelegate, U
     
     
     @IBAction func onImageTap(_ sender: Any) {
+        
         print("image tapped!")
-        
-        
+        MBProgressHUD.showAdded(to: self.view, animated: true)
+        Post.postUserImage(image: self.instaImage.image, withCaption: self.instaCaption.text) { (success: Bool, error: Error?) in
+            if success {
+                print("image works")
+                MBProgressHUD.hide(for: self.view, animated: true)
+                self.dismiss(animated: true, completion: nil)
+            } else {
+                print(error?.localizedDescription)
+                }
+            }
+        print("worked?")
     }
     
     
