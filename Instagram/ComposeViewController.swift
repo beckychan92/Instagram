@@ -24,6 +24,14 @@ class ComposeViewController: UIViewController, UINavigationControllerDelegate, U
     
     
     
+    @IBAction func onImageTap(_ sender: Any) {
+        print("image tapped!")
+        
+        
+    }
+    
+    
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: Any]){
 
         
@@ -34,8 +42,13 @@ class ComposeViewController: UIViewController, UINavigationControllerDelegate, U
             self.instaImage.isHidden = false
         }
         
-        let editedImage = info[UIImagePickerControllerEditedImage] as! UIImage
+//        let editedImage = info[UIImagePickerControllerEditedImage] as! UIImage
 
+        dismiss(animated: true, completion: nil)
+    }
+    
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
     }
 
