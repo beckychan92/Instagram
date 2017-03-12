@@ -48,7 +48,9 @@ class InstaViewController: UIViewController, UITableViewDataSource, UITableViewD
         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
             MBProgressHUD.hide(for: self.view, animated: true)
             if let posts = posts{
+                
                 print("Today is \(Date())")
+                
                 for post in posts{
                     self.posts.append(Post())
                 }
