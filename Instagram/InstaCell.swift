@@ -33,17 +33,7 @@ class InstaCell: UITableViewCell {
             
         }
     }
-    
-    
-//    var post: PFObject! {
-//        didSet{
-//            
-//            self.instaImage.file = post["photo"] as? PFFile
-//            self.instaImage.loadInBackground()
-//            captionLabel.text = post["caption"] as? String
-//        }
-//    }
-//    
+
     
 
     

@@ -8,7 +8,7 @@
 
 import UIKit
 import Parse
-import ParseUI
+//import ParseUI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -27,7 +27,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let vc = storyboard.instantiateViewController(withIdentifier: "InstaViewController")
             window?.rootViewController = vc
             // if there is a logged in user then load the home view controller
-            
+        } else {
+            print("did not work")
+        
         }
         
         // Code to initialize Parse

@@ -31,8 +31,8 @@ class InstaViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.delegate = self
-        tableView.dataSource = self
+        TableView.delegate = self
+        TableView.dataSource = self
         // Do any additional setup after loading the view.
         self.getPosts()
     }
@@ -52,7 +52,7 @@ class InstaViewController: UIViewController, UITableViewDataSource, UITableViewD
                 for post in posts{
                     self.posts.append(Post())
                 }
-                self.tableView.reloadData()
+                self.TableView.reloadData()
                 
             }else{
                 print(error?.localizedDescription)
@@ -82,7 +82,7 @@ class InstaViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         print("work")
-        let cell = tableView.dequeueReusableCell(withIdentifier: "InstaCell", for: indexPath) as! InstaCell
+        let cell = TableView.dequeueReusableCell(withIdentifier: "InstaCell", for: indexPath) as! InstaCell
         let post = self.posts[indexPath.row]
         print("work2")
         cell.post = post
