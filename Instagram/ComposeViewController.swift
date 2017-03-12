@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import ParseUI
 import MBProgressHUD
 
 class ComposeViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {

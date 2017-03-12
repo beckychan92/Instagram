@@ -7,14 +7,16 @@
 //
 
 import UIKit
+import Parse
+import ParseUI
+import MBProgressHUD
 
-class InstaViewController: UIViewController {
+class InstaViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet weak var TableView: UITableView!
+    var posts: [Post] = []
     
 
-    
-    
-    
     
     
     
@@ -29,9 +31,36 @@ class InstaViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableView.delegate = self
+        tableView.dataSource = self
         // Do any additional setup after loading the view.
+        self.getPosts()
     }
+    
+    func getPosts(){
+        // construct query
+        let query = PFQuery(className: "Post")
+        query.order(byDescending: "createdAt")
+        query.includeKey("author")
+        query.limit = 20
+        MBProgressHUD.showAdded(to: self.view, animated: true)
+        // fetch data asynchronously
+        query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+            MBProgressHUD.hide(for: self.view, animated: true)
+            if let posts = posts{
+                print("Today is \(Date())")
+                for post in posts{
+                    self.posts.append(Post())
+                }
+                self.tableView.reloadData()
+                
+            }else{
+                print(error?.localizedDescription)
+            }
+        }
+        
+    }
+    
     
     
 
@@ -50,5 +79,23 @@ class InstaViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        print("work")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "InstaCell", for: indexPath) as! InstaCell
+        let post = self.posts[indexPath.row]
+        print("work2")
+        cell.post = post
+        print("work4")
+        return cell
+        print("work5")
+    }
+    
+    
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.posts.count
+    }
 
 }
