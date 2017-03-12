@@ -2,7 +2,7 @@
 
 **Instagram** is a photo sharing app using Parse as its backend.
 
-Time spent: **X** hours spent in total
+Time spent: 12 hours spent in total
 
 ## User Stories
 
@@ -11,8 +11,8 @@ The following **required** functionality is completed:
 - [X] User can sign up to create a new account using Parse authentication
 - [X] User can log in and log out of his or her account
 - [X] The current signed in user is persisted across app restarts
-- [ ] User can take a photo, add a caption, and post it to "Instagram"
-- [ ] User can view the last 20 posts submitted to "Instagram"
+- [X] User can take a photo, add a caption, and post it to "Instagram"
+- [X] User can view the last 20 posts submitted to "Instagram"
 
 The following **optional** features are implemented:
 
@@ -36,9 +36,9 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href="http://imgur.com/sAhPUbK"><img src="http://i.imgur.com/sAhPUbK.gif" title="source: imgur.com" /></a>
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [RecordIt](http://www.recordit.co).
 
 ## Notes
 
@@ -46,7 +46,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Becky Chan]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
