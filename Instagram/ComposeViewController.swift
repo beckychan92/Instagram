@@ -16,7 +16,7 @@ class ComposeViewController: UIViewController, UINavigationControllerDelegate, U
     
     
     //instantiate a UIImagePickController
-//    let vc = UIImagePickerController()
+    let vc = UIImagePickerController()
 //    vc.delegate = self
 //    vc.allowsEditing = true
 //    vc.sourceType = UIImagePickerControllerSourceType.camera
@@ -28,7 +28,7 @@ class ComposeViewController: UIViewController, UINavigationControllerDelegate, U
         
         print("image tapped!")
         MBProgressHUD.showAdded(to: self.view, animated: true)
-        Post.postUserImage(image: self.instaImage.image, withCaption: self.instaCaption.text) { (success: Bool, error: Error?) in
+        Post.postUserImage(image: self.instaImage?.image, withCaption: self.instaCaption?.text) { (success: Bool, error: Error?) in
             if success {
                 print("image works")
                 MBProgressHUD.hide(for: self.view, animated: true)
@@ -41,7 +41,19 @@ class ComposeViewController: UIViewController, UINavigationControllerDelegate, U
     }
     
     
+    @IBAction func uploadButton(_ sender: Any) {
+        vc.allowsEditing = true
+        vc.sourceType = .photoLibrary
+        self.present(vc, animated: true, completion: nil)
+    }
     
+    
+    @IBAction func onCancel(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+        print("cancel complete")
+    }
+    
+
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: Any]){
 
         
@@ -58,6 +70,9 @@ class ComposeViewController: UIViewController, UINavigationControllerDelegate, U
     }
     
     
+    
+    
+    
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
     }
@@ -67,6 +82,9 @@ class ComposeViewController: UIViewController, UINavigationControllerDelegate, U
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.instaImage.isHidden = true
+        
+        vc.delegate = self
 
         // Do any additional setup after loading the view.
     }
